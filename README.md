@@ -44,7 +44,16 @@ Once the RBM is initialized, you can train it using your data:
 data = np.array([...])  # Your data here as a NumPy array
 rbm.train(data)
 
-Acknowledgments
+## References
 
-Inspired by the original papers on Restricted Boltzmann Machines.
-Thanks to the community for helpful discussions and insights.
+- Fischer, A., & Igel, C. (2014). Training Restricted Boltzmann Machines: An Introduction. _Pattern Recognition_, 47(1), 25-39. [https://doi.org/10.1016/j.patcog.2013.05.025](https://doi.org/10.1016/j.patcog.2013.05.025)
+
+- Glorot, X., & Bengio, Y. Understanding the Difficulty of Training Deep Feedforward Neural Networks. 
+
+- Hinton, G. E. (2012). A Practical Guide to Training Restricted Boltzmann Machines. In G. Montavon, G. B. Orr, & K.-R. Müller (Eds.), _Neural Networks: Tricks of the Trade_ (Vol. 7700, pp. 599-619). Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-35289-8_32](https://doi.org/10.1007/978-3-642-35289-8_32)
+
+- Salakhutdinov, R., et al. (2007). Restricted Boltzmann Machines for Collaborative Filtering. _Proceedings of the 24th International Conference on Machine Learning_ (pp. 791-798). ACM. [https://doi.org/10.1145/1273496.1273596](https://doi.org/10.1145/1273496.1273596)
+
+- Tieleman, T. (2008). Training Restricted Boltzmann Machines Using Approximations to the Likelihood Gradient. _Proceedings of the 25th International Conference on Machine Learning - ICML ’08_ (pp. 1064-1071). ACM Press. [https://doi.org/10.1145/1390156.1390290](https://doi.org/10.1145/1390156.1390290)
+
+Thanks to Dr.Soohyun Kim for help
