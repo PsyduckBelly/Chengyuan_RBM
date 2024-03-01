@@ -42,7 +42,8 @@ rbm = RBM(visible_dim, hidden_dim, learning_rate, number_of_iterations)
 Once the RBM is initialized, you can train it using your data:
 
 data = np.array([...])  # Your data here as a NumPy array
-rbm.train(data)```
+rbm.train(data)
+```
 
 ## References
 
