@@ -42,7 +42,7 @@ rbm = RBM(visible_dim, hidden_dim, learning_rate, number_of_iterations)
 Once the RBM is initialized, you can train it using your data:
 
 data = np.array([...])  # Your data here as a NumPy array
-rbm.train(data)
+rbm.train(data)```
 
 ## References
 
@@ -56,4 +56,5 @@ rbm.train(data)
 
 - Tieleman, T. (2008). Training Restricted Boltzmann Machines Using Approximations to the Likelihood Gradient. _Proceedings of the 25th International Conference on Machine Learning - ICML ’08_ (pp. 1064-1071). ACM Press. [https://doi.org/10.1145/1390156.1390290](https://doi.org/10.1145/1390156.1390290)
 
-Thanks to Dr.Soohyun Kim for help
+
+**Thanks to Dr.Soohyun Kim for help**
