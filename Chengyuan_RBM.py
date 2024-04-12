@@ -10,7 +10,6 @@ class RBM:
         self.debug_print = True
         
         # Create a random number generator for weight initialization
-        # TODO: probably here for the random seed
         np_rng = np.random.RandomState(317)
         
         # Normalize initiation to prevent symmetry
